@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code or the dataset, please cite the dissertation."
+title: "Towards More Efficient Mobile UI Design: Automatic Code Generation from Hand-Drawn Sketches Using Deep Learning"
+type: software
+authors:
+  - family-names: Leivers
+    given-names: Daniel
+repository-code: "https://github.com/Otaku-Development/sketch-to-swiftui"
+license: MIT
+preferred-citation:
+  type: thesis
+  thesis-type: "MSc dissertation"
+  title: "Towards More Efficient Mobile UI Design: Automatic Code Generation from Hand-Drawn Sketches Using Deep Learning"
+  authors:
+    - family-names: Leivers
+      given-names: Daniel
+  institution:
+    name: "University of Bath"
+  year: 2023
+  url: "https://github.com/Otaku-Development/sketch-to-swiftui"

@@ -1,0 +1,9 @@
+# Ultralytics YOLOv8+ dataset config. Run from the Training folder after
+# downloading the dataset to Training/dataset - see the README.
+path: dataset
+train: images/train
+val: images/validation
+test: images/test
+
+nc: 7
+names: ['button', 'image', 'label', 'navigationBar', 'tabBar', 'textField', 'switchButton']

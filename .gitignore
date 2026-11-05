@@ -1,0 +1,23 @@
+# macOS / Xcode
+.DS_Store
+xcuserdata/
+DerivedData/
+*.xcuserstate
+
+# Firebase config - supply your own, never commit it
+GoogleService-Info.plist
+*firebase-adminsdk*.json
+*service-account*.json
+
+# Python
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Training inputs and outputs
+Training/dataset/
+Training/yolo/data/
+Training/yolo/yolo/yolov5/
+Training/runs/
+*.pt

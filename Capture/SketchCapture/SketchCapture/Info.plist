@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeName</key>
+			<string>Playground</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>com.apple.dt.playground</string>
+			</array>
+			<key>LSTypeIsPackage</key>
+			<true/>
+			<key>LSIsAppleDefaultForType</key>
+			<true/>
+			<key>LSHandlerRank</key>
+			<string>Owner</string>
+		</dict>
+	</array>
+	<key>UTExportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeIconFiles</key>
+			<array>
+				<string>Document.png</string>
+				<string>Document320.png</string>
+			</array>
+			<key>UTTypeIdentifier</key>
+			<string>com.apple.dt.playground</string>
+			<key>UTTypeDescription</key>
+			<string>Playground</string>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.composite-content</string>
+				<string>com.apple.package</string>
+			</array>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.mime-type</key>
+				<array>
+					<string>application/x-apple-playground</string>
+				</array>
+				<key>public.filename-extension</key>
+				<array>
+					<string>playground</string>
+				</array>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,10 @@
+# YOLOv5 dataset config. YOLOv5 resolves `path` relative to the yolov5 folder
+# (Training/yolo/yolo/yolov5), so this points at Training/dataset.
+# Download the dataset there first - see the README.
+path: ../../../dataset
+train: images/train
+val: images/validation
+test: images/test
+
+nc: 7
+names: ['button', 'image', 'label', 'navigationBar', 'tabBar', 'textField', 'switchButton']
