@@ -6,6 +6,11 @@ authors:
   - family-names: Leivers
     given-names: Daniel
 repository-code: "https://github.com/Otaku-Development/sketch-to-swiftui"
+doi: "10.5281/zenodo.23982905"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23982905"
+    description: "Concept DOI for all versions, archived on Zenodo"
 license: MIT
 preferred-citation:
   type: thesis
@@ -17,4 +22,5 @@ preferred-citation:
   institution:
     name: "University of Bath"
   year: 2023
+  doi: "10.5281/zenodo.23982905"
   url: "https://github.com/Otaku-Development/sketch-to-swiftui"

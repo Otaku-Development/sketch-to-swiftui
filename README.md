@@ -1,5 +1,7 @@
 # Sketch to SwiftUI
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23982905.svg)](https://doi.org/10.5281/zenodo.23982905)
+
 An iPad app that turns hand-drawn mobile UI sketches into SwiftUI code as you draw. You sketch a screen with the Apple Pencil, a YOLOv5 object detector running on-device recognises the UI components, and the app renders a live preview and generates SwiftUI code you can export as an Xcode playground.
 
 This is the code for my MSc Artificial Intelligence dissertation at the University of Bath (2023):
@@ -9,6 +11,7 @@ This is the code for my MSc Artificial Intelligence dissertation at the Universi
 
 - **Demo video:** https://www.youtube.com/watch?v=SKGdZ3H9eyY
 - **Training dataset:** https://huggingface.co/datasets/workshed/ipad-ui-sketches (133 labelled sketches, 7 classes, YOLO format)
+- **Archived release (Zenodo):** https://doi.org/10.5281/zenodo.23982905
 
 ## Repository layout
 
@@ -109,6 +112,7 @@ The code is released under the [MIT licence](LICENSE), with these exceptions:
   school = {University of Bath},
   type   = {{MSc} dissertation},
   year   = {2023},
+  doi    = {10.5281/zenodo.23982905},
   url    = {https://github.com/Otaku-Development/sketch-to-swiftui}
 }
 ```
